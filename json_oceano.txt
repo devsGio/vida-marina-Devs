@@ -1,0 +1,4 @@
+[
+	{"nombre_pez": "Nemo", "ruta_img": "img/nemo.jpg"},
+	{"nombre_pez": "Dory", "ruta_img": "img/nemo.jpg"}
+]
