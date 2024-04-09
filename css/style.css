@@ -86,7 +86,7 @@ h1 {
     border-top: 8px solid var(--blanco);
     border-left: 8px solid var(--blanco);
     position: absolute;
-    top: calc(50% + 44px);
+    top: calc(50% + 88px);
     left: calc(50% - 44px);
     transform: rotate(225deg);
 }
