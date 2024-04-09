@@ -93,3 +93,9 @@ h1 {
 .cuadro.cuadro-2 {
     transform: translateY(50px) rotate(225deg);
 }
+
+.imag{
+    display: inline;
+    width: 280px;
+    padding: 20px;
+}
