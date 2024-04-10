@@ -1,4 +1,7 @@
 [
 	{"nombre_pez": "Nemo", "ruta_img": "img/nemo.jpg"},
-	{"nombre_pez": "Dory", "ruta_img": "img/dory.jpg"}
+	{"nombre_pez": "Dory", "ruta_img": "img/dory.jpg"},
+	{"nombre_pez": "Bailarina", "ruta_img": "https://content.nationalgeographic.com.es/medio/2022/12/12/pez-1_624921b9_221212160925_1280x720.jpg"},
+	{"nombre_pez": "Acuarium", "ruta_img": "https://images.hola.com/imagenes/mascotas/20220211204436/peces-mas-bonitos-llamativos-para-acuario-dn/1-50-132/peces-acuario-t.jpg"},
+	{"nombre_pez": "Zeus", "ruta_img":"https://extincionanimal.org/wp-content/uploads/2020/05/Peces.jpg"}
 ]

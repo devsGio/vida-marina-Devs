@@ -18,10 +18,13 @@ function mostrarContenido(contenido) {
     let body = "";
     for(let i=0; i<contenido.length; i++){
         body +=  `
-        <tr>
-            <td>${contenido[i].nombre_pez}</td>
-            <td><img src="${contenido[i].ruta_img}"/></td>
-        </tr>
+        <div class="carousel-item active">
+            <img src="${contenido[i].ruta_img}" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>${contenido[i].nombre_pez}</h5>
+                <p>Descripcion del pecicito</p>
+            </div>
+        </div>
     `
     console.log(contenido[i].ruta_img)
     }
