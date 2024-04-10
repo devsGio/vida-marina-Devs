@@ -27,4 +27,4 @@ function mostrarContenido(contenido) {
     }
     tableBody.innerHTML = body;
 }
-document.getElementById('file-input').addEventListener('change', leerArchivo, false);
+document.getElementById('file-input').addEventListener('change', leerArchivo);
