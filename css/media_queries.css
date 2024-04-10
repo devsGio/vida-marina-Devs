@@ -1,4 +1,10 @@
-@media (width >= 1024px) and 
+@media (width >= 375) and 
+        (width <= 1024px){
+    h1 {
+        font-size: 2rem!important;
+    }
+}
+@media (width > 1024px) and 
         (width < 1920px){
     h1 {
         font-size: 3.5rem!important;
