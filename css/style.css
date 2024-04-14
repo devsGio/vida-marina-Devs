@@ -132,9 +132,19 @@ h1 {
     top: 90.5%;
 }
 .imag{
-    display: inline;
+    
     width: 280px;
     padding: 20px;
+}
+.imag{
+    
+    width: 20px;
+    padding: 5px;
+}
+
+.ejemplos{
+    display: flex;
+    justify-content: space-evenly;
 }
 .contenedor{
     background-color: #c6e4fc;
@@ -148,4 +158,19 @@ h1 {
     0% {transform: translateY(calc(50px + 30px)) rotate(225deg);}
 
     100% {transform: translateY(50px) rotate(225deg);}
+}
+.amenaza{
+    display: table-caption;
+    flex-wrap: wrap;
+}
+.imagenpez{
+    width: 1000px;
+    height: 600px;
+}
+.botones{
+    all: unset;   /* Esto elimina todos los estilos heredados y de usuario */
+    background: none; /* Remueve cualquier fondo */
+    color: inherit; /* El color del texto hereda del elemento padre */
+    border: none; /* Elimina los bordes */
+    color: white;
 }
