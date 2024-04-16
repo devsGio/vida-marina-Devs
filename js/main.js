@@ -31,3 +31,14 @@ function mostrarContenido(contenido) {
     tableBody.innerHTML = body;
 }
 document.getElementById('file-input').addEventListener('change', leerArchivo);
+
+/* FUNCION PARA HABILITAR SLIDER */
+let btn_toSlider = document.getElementById('btn-downArrows');
+    btn_toSlider.addEventListener('click', () => {
+    document.getElementById('sliderFish').style.display="block";
+    console.log("perro")
+    setTimeout(() => {
+        document.getElementById('carousel-item').style.display = "block";
+        document.getElementById('carousel-item').style.transform = "translateY(0)";
+    },0)
+})
