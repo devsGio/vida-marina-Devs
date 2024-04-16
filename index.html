@@ -62,15 +62,71 @@
     <h1 class="general-title fw-med position-relative">
         Cuidado sostenible para las especies marinas en Colombia
     </h1>
-    <div class="cuadro activeArrow"></div>
-    <div class="cuadro cuadro-2 activeArrow-2"></div>
-    <span class="txtStart">
+    <a href="#sliderFish" class="txtStarts">
+        <div class="cuadro activeArrow"></div>
+        <div class="cuadro cuadro-2 activeArrow-2"></div>
+    </a>  
+    <!-- <span class="txtStart">
         <a href="#sliderFish" class="fw-med">!Comencemos¡</a>
-    </span>
-    <video style="z-index: -1; position: absolute; top: 0; max-width: 100%; opacity: 0.9;" src="img/vid-portada-5.mp4" playsinline autoplay muted loop id="front-main-video"></video>
+    </span> -->
+    <video style="z-index: -1; position: absolute; top: 0; max-width: 100%; opacity: 0.9;" src="img/vid-portada-1.mp4" playsinline autoplay muted loop id="front-main-video"></video>
     </div>
     <!-- <<<<<<<<<<<<< apartir de aquí le toca a ud, trabaje de esta linea para abajo >>>>>>>>>>>>>>>>>>>-->
-    <div id="sliderFish">
+    <div id="sliderFish" >
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+            ></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+            ></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+            ></button>
+        </div>
+        <div class="carousel-inner vh-100" id="principal">
+            <div class="carousel-item active vh-100">
+                <img
+                src="https://content.nationalgeographic.com.es/medio/2022/12/12/pez-1_624921b9_221212160925_1280x720.jpg"
+                class="d-block imagenpez"
+                alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Primer pez</h5>
+                <p>Descripcion del pez</p>
+                </div>
+            </div>
+            <div class="carousel-item active h-100">
+                <img src="img/peces coral.jpg" class="d-block imagenpez" alt="..."/>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Peces de arrecife</h5>
+                <p>Conjunto de peces de arrecife</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!--<div id="sliderFish">
         <div class="container-fluid contenedor h-100">
             <div class="row">
                 <div class="col-12">
@@ -149,7 +205,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Modal Nosotros -->
     <div class="modal fade" id="nosotrosModal" tabindex="-1" aria-labelledby="nosotrosModalLabel" aria-hidden="true">
@@ -174,7 +230,7 @@
                 eum quo?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -219,7 +275,7 @@
                     numquam tenetur sequi odit! Odit perferendis ut incidunt illum.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
@@ -294,7 +350,7 @@
                     suscipit temporibus. Cumque libero ad tempore ullam molestiae.
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> Cerrar</button>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"> Cerrar</button>
                 </div>
             </div>
         </div>
