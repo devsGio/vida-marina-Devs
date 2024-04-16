@@ -87,6 +87,13 @@ h1 {
   top: 70%;
   left: 50%;
 }
+.txtStarts {
+  position: relative;
+  cursor: pointer;
+  z-index: 9;
+  display: block;
+  margin: auto;
+}
 .cuadro {
   width: 88px;
   height: 88px;
@@ -145,7 +152,6 @@ h1 {
   width: 20px;
   padding: 5px;
 }
-
 .ejemplos {
   display: flex;
   justify-content: space-evenly;
