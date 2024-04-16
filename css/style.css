@@ -115,19 +115,19 @@ h1 {
   animation: translateArrow-2 1.5s infinite alternate;
 }
 .txtStart {
-  position: absolute;
-  top: 90%;
-  left: calc(50% - 90px);
-  color: var(--azul-1);
-  font-size: 1.35rem;
+  color: var(--blanco);
+  margin: auto;
+  font-size: 1.8rem;
   filter: drop-shadow(6px 7px 1px #000);
-  background-color: rgba(255, 255, 255, 0.78);
-  padding: 10px 20px;
-  border-radius: 30px;
   transition: all 0.2s;
   cursor: pointer;
+  position: absolute;
+  top: 93%;
+  left: calc(50% - 185px);
 }
-.txtStart > a {
+/* --- SE COMENTA PARA FUTURO USO EFECTO BOTON HUNDIDO --- */
+
+/* .txtStart > a {
   color: var(--azul-1);
 }
 .txtStart > a:hover {
@@ -137,7 +137,7 @@ h1 {
   box-shadow: 4px 6px 6px var(--black) inset;
   filter: none;
   top: 90.5%;
-}
+} */
 #sliderFish {
   width: 100vw;
   max-width: 100%;
@@ -159,24 +159,6 @@ h1 {
 .contenedor {
   background-color: #c6e4fc;
 }
-@keyframes translateArrow {
-  0% {
-    transform: translateY(30px) rotate(225deg);
-  }
-
-  100% {
-    transform: translateY(0) rotate(225deg);
-  }
-}
-@keyframes translateArrow-2 {
-  0% {
-    transform: translateY(calc(50px + 30px)) rotate(225deg);
-  }
-
-  100% {
-    transform: translateY(50px) rotate(225deg);
-  }
-}
 .amenaza {
   display: table-caption;
   flex-wrap: wrap;
@@ -195,4 +177,25 @@ h1 {
 .carousel-control-next-icon, .carousel-control-prev-icon{
     width: 12rem;
     height: 12rem;
+}
+
+/* PONER ESTILOS ENCIMA DE ESTAS KEYFRAMES */
+
+@keyframes translateArrow {
+  0% {
+    transform: translateY(30px) rotate(225deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(225deg);
+  }
+}
+@keyframes translateArrow-2 {
+  0% {
+    transform: translateY(calc(50px + 30px)) rotate(225deg);
+  }
+
+  100% {
+    transform: translateY(50px) rotate(225deg);
+  }
 }
